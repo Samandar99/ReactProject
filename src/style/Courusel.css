@@ -1,0 +1,263 @@
+.Can {
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+
+.Can__header {
+    width: 46%;
+    height: auto;
+    /* background-color: brown; */
+    margin: auto;
+    text-align: center;
+}
+
+.sayword {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+
+}
+
+.sayStudent {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    /* or 25px */
+
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #555555;
+}
+
+.container1 {
+    width: 88%;
+    height: 400px;
+    /* background-color: burlywood; */
+    margin: 0rem auto;
+
+}
+
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+    background-color: #ffffff !important;
+    background: none !important;
+}
+
+.swiper-button-prev {
+
+    color: #fff !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #086CF9;
+    border-radius: 50%;
+
+}
+
+.swiper-button-next {
+    color: #fff !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #086CF9;
+    border-radius: 50%;
+}
+
+:root {
+    --swiper-navigation-size: 14px !important;
+}
+
+
+.swiper-wrapper {
+    position: relative;
+    width: 100% !important;
+    height: 300px !important;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+
+    box-sizing: content-box;
+    /* background-color: red; */
+
+
+}
+
+
+
+.swiper-slide {
+    /* /* width: 370px !important; */
+    /* background-color: rgb(255, 255, 255) !important; */
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.08);
+    height: 260px !important;
+}
+
+.cons89 {
+    width: 320px;
+    height: 260px;
+    /* background-color: #340c0c; */
+    justify-content: unset;
+
+    border-radius: 6px;
+
+}
+
+
+.aboutwordss {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    /* or 25px */
+    margin-left: 15px;
+    padding-top: 25px;
+    color: #555555;
+    width: 80%;
+}
+
+.Jong {
+    width: 220px;
+    height: 60px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 13px;
+}
+
+.left {
+    width: 150px;
+    height: 60px;
+    /* background-color: aquamarine; */
+}
+
+
+.Ahmadtext {
+    margin-bottom: 0rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.AhmadJob {
+    margin-top: 4px;
+    margin-bottom: 0rem;
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container1 {
+        width: 98%;
+        height: 400px;
+        /* background-color: rgb(202, 119, 18); */
+        margin: 4rem auto;
+
+    }
+    .aboutwordss {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        /* or 25px */
+        margin-left: 15px;
+        padding-top: 25px;
+        color: #555555;
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .container1 {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        margin: 4rem auto;
+     
+    }
+    .aboutwordss {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        /* or 25px */
+        margin-left: 15px;
+        padding-top: 25px;
+        color: #555555;
+        width: 60%;
+    }
+}
+
+@media (max-width: 767.9px) {
+
+    
+.swiper-slide {
+    width: 48.6% !important;
+    background-color: rgb(255, 255, 255) !important;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+    height: 260px !important; 
+}
+.container1 {
+    width: 99%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: #086CF9; */
+    margin:  auto;
+    overflow: hidden;
+}
+
+
+}
+
+@media (max-width: 480px) {
+    .cons89 {
+        width: 70%;
+        height: 260px;
+        /* background-color: #340c0c; */
+        justify-content: unset;
+    
+        border-radius: 6px;
+    
+    }
+    
+    .swiper-slide {
+        width: 70% !important;
+        background-color: rgb(255, 255, 255) !important;
+        margin-top: 5px !important;
+        margin-left: 5px !important;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+        height: 260px !important; 
+    }
+    .container1 {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        /* background-color: #086CF9; */
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .aboutwordss {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        /* or 25px */
+        margin-left: 15px;
+        padding-top: 25px;
+        color: #555555;
+        width: 100%;
+    }
+
+    .Can__header {
+        width: 95%;
+        height: auto;
+        /* background-color: brown; */
+        margin: auto;
+        text-align: center;
+    }
+
+}

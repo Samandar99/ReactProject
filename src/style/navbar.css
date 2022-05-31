@@ -1,0 +1,207 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+
+
+.nav__brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222222;
+    margin-left: 144px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: auto;
+}
+
+.nav__toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgray;
+    transition: 0.4s ease-in;
+}
+
+.nav__toggler {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.avto {
+    margin-left: 2rem;
+    display: flex;
+    gap: 30px;
+}
+
+.btn1 {
+    padding: 12px 24px;
+    border: none;
+
+    background-color: Transparent;
+    transition: 0.3s ease-in;
+    
+}
+
+/* .btn1:hover {
+  
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #086CF9;
+} */
+
+.btn2 {
+    border: none;
+    padding: 12px 24px;
+    background-color: #086CF9;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+
+.nav__link {
+    color: #222222 !important;
+   
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav__brand {
+        position: relative;
+        right: 4rem;
+    }
+
+}
+
+
+@media screen and (min-width: 769px)and (max-width: 991px) {
+    .nav__menu {
+
+        display: flex;
+        gap: 30px;
+    }
+
+    .nav__brand {
+        position: relative;
+        right: 4rem;
+    }
+
+    .btn1 {
+        padding: 4px 6px;
+    }
+
+    .btn2 {
+        padding: 4px 10px;
+    }
+
+    .avto {
+        gap: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav__toggler {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        position: fixed;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 9vh;
+        right: 0;
+        width: 50vw;
+        height: 93vh;
+        background: #fff;
+        flex-direction: column;
+        gap: 20px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+
+    .avto {
+        display: flex;
+        justify-content: center;
+        width: 120px;
+
+        margin-right: 1.3rem;
+        flex-wrap: wrap;
+
+    }
+
+    .nav__brand {
+
+        margin-left: 1px;
+    }
+}
+
+
+/* nav Actove Class */
+
+.nav__active {
+    transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}

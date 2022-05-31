@@ -1,0 +1,344 @@
+.blocked {
+    width: 100%;
+    height: auto;
+    background-color: #ECF4FF;
+
+
+}
+
+.blockes-guy {
+    width: 88%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 200px;
+}
+
+.cours {
+    width: 352px;
+    height: 475px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+/* .cours:hover{
+   transform: scale(1.1);
+   
+} */
+
+
+.photost {
+    background: url('../image/wonderlane1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+
+.photost1 {
+    background: url('../imagesections/jeswin1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+.photost2 {
+    background: url('../imagesections/mr-bochelly1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+.photost3 {
+    background: url('../imagesections/mimi1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+
+
+
+.photost4 {
+    background: url('../imagesections/jeswins1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+.photost5 {
+    background: url('../imagesections/fred1.png');
+    background-size: cover;
+    width: 320px;
+    height: 208px;
+}
+
+
+
+
+
+
+
+
+.egg {
+    width: 320px;
+    height: 40px;
+
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.feet {
+
+    width: 320px;
+    height: 0px;
+
+    border: 0.5px solid #E9E8E8;
+    /* transform: rotate(-0.18deg); */
+    margin-top: 20px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0px;
+
+
+}
+
+
+
+.five {
+    color: #555555;
+    margin-bottom: 0rem;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.gons {
+    width: 60%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.all {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 0rem;
+}
+
+.all2 {
+    color: #555555;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+}
+
+.eded {
+    color: #086CF9;
+    font-size: 32px;
+}
+
+.cost {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    /* identical to box height, or 25px */
+
+
+    color: #555555;
+}
+
+
+
+.stars {
+    color: #086CF9;
+    font-size: 29px;
+}
+
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.taecher {
+    background: url('../image/Ellipse2.png');
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+
+}
+
+.Development {
+    width: 320px;
+    height: 40px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.dev {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #333333;
+
+}
+
+.prices {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #086CF9;
+
+}
+
+.abouts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+
+    color: #555555;
+}
+
+.views {
+    width: 182px;
+    height: 56px;
+    background: #086CF9;
+    border-radius: 6px;
+    border: 1px solid #086CF9;
+    color: #fff;
+    margin-top: 48px;
+    transition: all 0.3s ease-in-out;
+}
+
+.views:hover {
+    background-color: Transparent;
+    color: #000000;
+}
+
+
+
+
+
+.fuuter {
+    text-align: center;
+
+    width: 300px;
+    height: 130px;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .blockes-guy {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 0px;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blockes-guy {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .blockes-guy {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 0px;
+    }
+
+    .gons {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: auto;
+        text-align: center;
+
+    }
+
+
+}
+
+@media (max-width: 767.9px) {
+    .blockes-guy {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 0px;
+    }
+
+    .gons {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: auto;
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .blockes-guy {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 0px;
+    }
+}

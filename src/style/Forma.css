@@ -1,0 +1,147 @@
+.containerForma {
+    width: 100%;
+/*    
+    background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.containerForma-Child {
+    width: 80%;
+/*     
+    background-color: rgb(255, 127, 127); */
+
+}
+
+
+.childForm {
+    width: 100%;
+    height: auto;
+    background-color: #086CF9;
+    margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+
+.say-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+   
+    padding-top: 45px;
+
+    color: #FCFCFC;
+}
+
+.about-say {
+    width: 46%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+
+    margin: auto;
+
+
+    color: #F9F9F9;
+
+}
+
+
+
+
+
+.inputgoing {
+    width: 44%;
+    height: 64px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+.footerChildes {
+    width: 50%;
+    height: 64px;
+    background: #fff;
+    margin: 38px auto;
+    display: flex;
+    border-radius: 5px;
+    
+ }
+
+.ons {
+    width: 115px;
+    height: 48px;
+    background-color: #086CF9;
+    border: 1px solid #086CF9;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 0.70rem;
+}
+
+.fow {
+    border: none;
+    outline: none;
+    width: 70%;
+    margin-left: 1rem;
+   
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991.9px) {}
+
+@media (max-width: 767.9px) {
+    .containerForma-Child {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(255, 127, 127); */
+    
+    }
+    .childForm {
+        width: 100%;
+        height: auto;
+        background-color: #086CF9;
+        margin:  auto;
+        text-align: center;
+        border-radius: 6px;
+    }
+  
+
+}
+
+@media (max-width: 480px) {
+    .childForm {
+        width: 100%;
+        height: auto;
+        background-color: #086CF9;
+        margin: auto;
+        text-align: center;
+        border-radius: 0px;
+        padding-bottom: 60px;
+    }
+    .about-say {
+        width: 96%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+    
+        margin: auto;
+    
+    
+        color: #F9F9F9;
+    
+    }
+    .footerChildes {
+        width: 70%;
+        height: 64px;
+        background: #fff;
+        margin: 38px auto;
+        display: flex;
+        border-radius: 5px;
+        
+     }
+}
